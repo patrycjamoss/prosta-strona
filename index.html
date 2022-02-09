@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <section>
-    <nav class="menu nawigacyjne">
-        <ul class="menu-list">
-                <li><a href="#about us">about us</a></li><br>
-                <h2>nagłówek</h2><br>
-                <p>przykladowy tekst</p>  
-        </ul>
-    </nav>
+        <nav class="menu-nawigacyjne">
+            <ul class="menu-list">
+                <li><a href="#about-us">about us</a></li>
+                <li><a href="#skills"></a>skills</li>
+                <li><a href="#portfolio"></a>portfolio</li>
+                <li><a href="#kontakt"></a>kontakt</li>
+            </ul>
+        </nav>
     </section>
-    <section> 
-        <ul>
-                <h2>nagłówek</h2><br>
-                <div class="skill">skill</div>
-                    <h4>nagłówek</h4>
-                    <p>paragraf</p>
-                <div class="skill">skill</div>
-                    <h4>nagłówek</h4>
-                    <p>paragraf</p>
-                <div class="skill">skill</div>
-                    <h4>nagłówek</h4>
-                    <p>paragraf</p>
-                <div class="skill">skill</div>
-                    <h4>nagłówek</h4>
-                    <p>paragraf</p>
-        </ul>
+
+    <section id="about-us">
+        <h2>About us</h2>
+        <p>paragraf</p>
+    </section>
+
+    <section id="skills">
+        <h2>skills</h2>
+        <div class="skill">skill
+            <h4>nagłówek</h4>
+            <p>paragraf</p>
+        </div>
+        <div class="skill">skill
+            <h4>nagłówek</h4>
+            <p>paragraf</p>
+        </div>
+        <div class="skill">
+            <h4>skill</h4>
+            <p>paragraf</p>
+        </div>
+        <div class="skill">skills
+            <h4>nagłówek</h4>
+            <p>paragraf</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>nagłówek</h2>
+        <div class="portfolio-item">portfolio-item
+            <img src="img/images.jpg" alt="kot">
+        </div><br>
+        <div class="portfolio-item">portfolio-item
+            <img src="img/download.png" alt="mis">
+        </div><br>
+        <div class="portfolio-item">portfolio-item
+            <img src="twitter/ptak.png" alt="ptak">
+        </div><br>
     </section>
 
     <section>
-        <ul>
-                <h2>nagłówek</h2>
-                <div class="portfolio-item">portfolio-item</div>
-                    <img src="KOT/kot.jpg" alt="kot"><br>
-                <div class="portfolio-item">portfolio-item</div>
-                    <img src="download.png" alt="mis"><br>
-                <div class="portfolio-item">portfolio-item</div>
-                    <img src="twitter/ptak.png" alt="ptak"><br>
-        </ul>            
-    </section>
-
-    <section>
-         <ul>  
-            <h2>kontakt</h2>
-
-            <form action="wyślij">
-                <input type="name" name="imie" placeholder="imie"required/> <br>
-                <input type="name" name="temat" placeholder="temat" required/> <br>
-                <input type="name" name="wiadomość" placeholder="wiadomość"required/> <br>
-                <input type="submit" value="Wyślij"/>
-            </form>
-        </ul>
-    </section>
-    
-    <section>
-        <ul>
+        <h2>Imie i Nazwisko</h2>
+        <address>
+            Dane adresowe <br>
+            Warszawa <br>
+            ul. Lipowa 2/9 <br>
+            <a href="patrycjamoss@gmail.com">email</a>
+        </address>
         <form action="wyślij">
             <label for="Imie"></label><br>
-            <input type="text" id="Imie" name="Imie"><br>
+            <input type="text" id="Imie" name="Imie" placeholder="imie" required><br>
             <label for="temat"></label>
-            <input type="text" id="temat" name="temat"><br>
+            <input type="text" id="temat" name="temat" placeholder="temat" required>
             <label for="wiadomość"></label><br>
-            <input type="text" id="wiadomość" name="wiadomość">
+            <input type="text" id="wiadomość" name="wiadomość" placeholder="wiadomość" required><br>
+            <input type="submit" value="Wyślij" />
         </form>
-        </ul>
     </section>
 
 
-    
+
 </body>
+
 </html>
